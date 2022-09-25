@@ -16,8 +16,8 @@ The **models** folder contains the models used in this experiment.
 ## 2. Dataset structure
 Each dataset should be structured as follows:
 - :file_folder: `./dataset/`
-  - :file_folder: `./generated/`
-  - :file_folder: `./real/`
+  - :file_folder: `generated/`
+  - :file_folder: `real/`
 ## 3. Training models
 `python3 train.py --model model_name --train_fold train_folder --val_fold val_folder --batch bs --lr lr --epochs n_epochs`
 ## 4. Training ensemble
